@@ -2,3 +2,23 @@
   height: 3rem;
   width: 3rem;
 }
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  color: black;
+}
+
+.header {
+  background-color: #e9e2df;
+}
+
+.link {
+  font-family: 'Open Sans', sans-serif;
+  color: black !important;
+  font-weight: lighter;
+}
+
+a:link {
+  color: black !important;
+}
