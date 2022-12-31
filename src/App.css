@@ -1,15 +1,26 @@
+.App {
+  background-color: #e9e2df;
+}
+
 .logo {
   height: 3rem;
   width: 3rem;
 }
 
-h2 {
+h1,
+h2,
+h5,
+h6 {
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
   color: black;
 }
 
 .header {
+  background-color: #e9e2df;
+}
+
+.home-page {
   background-color: #e9e2df;
 }
 
@@ -21,4 +32,9 @@ h2 {
 
 a:link {
   color: black !important;
+}
+
+footer {
+  background-color: #f8f9fa;
+  font-family: 'Open Sans';
 }

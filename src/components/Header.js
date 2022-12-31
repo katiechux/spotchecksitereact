@@ -1,5 +1,6 @@
 import { Container, Navbar, NavbarBrand, Collapse, Nav, NavItem } from 'reactstrap';
 import logo from '../app/assets/spotchecklogo.png';
+import OpenCaseForm from './OpenCaseForm';
 
 const Header = () => {
     return(
@@ -26,6 +27,7 @@ const Header = () => {
                     </Nav>
                 </Container>
             </Collapse>
+            <OpenCaseForm/>
         </Navbar>
     );
 };
