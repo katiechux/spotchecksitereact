@@ -48,10 +48,10 @@ const OpenCaseForm = () => {
                                 </Col>
                             </FormGroup>
                             <FormGroup row>
-                                <Label htmlFor='company' md='2'>
+                                <Label htmlFor='company' md='4'>
                                     Company Name
                                 </Label>
-                                <Col md='10'>
+                                <Col md='8'>
                                     <Field
                                         name='company'
                                         placeholder='Company Name'
@@ -60,10 +60,10 @@ const OpenCaseForm = () => {
                                 </Col>
                             </FormGroup>
                             <FormGroup row>
-                                <Label htmlFor='salesforceId' md='2'>
+                                <Label htmlFor='salesforceId' md='4'>
                                     Salesforce Org Id
                                 </Label>
-                                <Col md='10'>
+                                <Col md='8'>
                                     <Field
                                         name='salesforceId'
                                         placeholder='Salesforce Org Id'
